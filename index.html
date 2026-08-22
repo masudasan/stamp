@@ -344,7 +344,7 @@ function buildGrid(){
     btn.disabled = true;
     btn.innerHTML =
       '<span class="no">No.' + stamp.no + '</span>' +
-      '<span class="glyph">' + stamp.img + '</span>' +
+      '<span class="img">' + stamp.png + '</span>' +
       '<span class="label">' + stamp.label + '</span>' +
       '<span class="ring"></span>';
     btn.addEventListener('click', () => sendStamp(stamp, btn));
